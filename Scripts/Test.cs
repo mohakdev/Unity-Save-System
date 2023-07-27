@@ -24,6 +24,8 @@ namespace RadiantTools.SaveSystem
         {
             SaveManager.GetSavedData().name = nameLabel.text;
             SaveManager.GetSavedData().age = int.Parse(ageLabel.text);
+
+            
         }
     }
 }
